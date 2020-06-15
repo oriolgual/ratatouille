@@ -1,0 +1,59 @@
+importers:
+  -
+    url: "cocinina.com"
+    importer: "Generic"
+    options:
+      description_from_text: ""
+      description_until_text: "ingredientes"
+      ingredients_from_text: "ingredientes"
+      ingredients_until_text: "instrucciones"
+      directions_from_text: "instrucciones"
+      directions_until_text: "compártelo"
+      recipe_container: '.entry-content'
+      title_container: '.entry-title'
+  -
+    url: "beginveganbegun.es"
+    importer: "Generic"
+    options:
+      description_from_text: ""
+      description_until_text: "ingredientes"
+      ingredients_from_text: "ingredientes"
+      ingredients_until_text: "preparación"
+      directions_from_text: "preparación"
+      directions_until_text: "posts relacionados"
+      recipe_container: '.entry-content'
+      title_container: '.entry-title'
+  -
+    url: "veritas.es"
+    importer: "Generic"
+    options:
+      description_from_text: ""
+      description_until_text: "###name"
+      ingredients_from_text: "ingredients"
+      ingredients_until_text: "elaboració"
+      directions_from_text: "elaboració"
+      directions_until_text: ""
+      recipe_container: '.entry-content'
+      title_container: '.entry-title'
+  -
+    url: "midietavegana.es"
+    importer: "Generic"
+    options:
+      ingredients_from_text: "ingredientes"
+      ingredients_until_text: "indicaciones"
+      directions_from_text: "indicaciones"
+      directions_until_text: "relacionado"
+      recipe_container: ".jupiterx-post-body"
+      title_container: ".jupiterx-post-title"
+  -
+    url: "centroaleris.com"
+    importer: "Generic"
+    options:
+      recipe_container: '.post .content'
+      title_container: '.post h1'
+      description_from_text: ""
+      description_until_text: "ingredientes"
+      ingredients_from_text: "ingredientes"
+      ingredients_until_text: "receta:"
+      directions_from_text: "receta:"
+      directions_until_text: "Si no quieres perderte"

@@ -1,0 +1,14 @@
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+/recipes/*.yml
+.DS_Store
+.byebug_history
+
+# rspec failure tracking
+.rspec_status

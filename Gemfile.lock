@@ -1,0 +1,71 @@
+PATH
+  remote: .
+  specs:
+    ratatouille (0.1.0)
+      json-ld
+      nokogiri
+      sanitize
+      thor
+      zeitwerk
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (11.1.3)
+    concurrent-ruby (1.1.6)
+    crass (1.0.6)
+    diff-lcs (1.3)
+    hamster (3.0.0)
+      concurrent-ruby (~> 1.0)
+    htmlentities (4.3.4)
+    json-canonicalization (0.2.0)
+    json-ld (3.1.4)
+      htmlentities (~> 4.3)
+      json-canonicalization (~> 0.2)
+      link_header (~> 0.0, >= 0.0.8)
+      multi_json (~> 1.14)
+      rack (~> 2.0)
+      rdf (~> 3.1)
+    link_header (0.0.8)
+    mini_portile2 (2.4.0)
+    multi_json (1.14.1)
+    nokogiri (1.10.9)
+      mini_portile2 (~> 2.4.0)
+    nokogumbo (2.0.2)
+      nokogiri (~> 1.8, >= 1.8.4)
+    rack (2.2.2)
+    rake (12.3.3)
+    rdf (3.1.2)
+      hamster (~> 3.0)
+      link_header (~> 0.0, >= 0.0.8)
+    rspec (3.9.0)
+      rspec-core (~> 3.9.0)
+      rspec-expectations (~> 3.9.0)
+      rspec-mocks (~> 3.9.0)
+    rspec-core (3.9.2)
+      rspec-support (~> 3.9.3)
+    rspec-expectations (3.9.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.9.0)
+    rspec-mocks (3.9.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.9.0)
+    rspec-support (3.9.3)
+    sanitize (5.2.0)
+      crass (~> 1.0.2)
+      nokogiri (>= 1.8.0)
+      nokogumbo (~> 2.0)
+    thor (1.0.1)
+    zeitwerk (2.3.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  byebug
+  rake (~> 12.0)
+  ratatouille!
+  rspec (~> 3.0)
+
+BUNDLED WITH
+   2.1.4
